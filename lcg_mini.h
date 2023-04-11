@@ -1,6 +1,8 @@
 #ifndef LCG_MINI_H
 #define LCG_MINI_H
 
+#define LCG_MINI_VERSION 1.0.0
+
 #include <stdint.h>
 
 
