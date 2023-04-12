@@ -21,5 +21,5 @@ lcg_mini.o: lcg_mini.c
 .PHONY: clean
 clean:
 	$(call RM,lcg_mini.o)
-	$(call RM,liblcg_mini.a)
-	$(call RM,liblcg_mini.lib)
+	$(call RM,liblcg-mini.a)
+	$(call RM,liblcg-mini.lib)
