@@ -15,7 +15,7 @@ endif
 liblcg-mini$(LIBRARY_EXTENSION): lcg_mini.o
 	ar rcs $@ $^
 
-lcg_mini.o: lcg_mini.c
+lcg_mini.o: lcg_mini.c lcg_mini.h
 	gcc -c $<
 
 .PHONY: clean
